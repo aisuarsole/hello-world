@@ -1,0 +1,17 @@
+//*********************************************************************************
+// Creado por ALBERT ISUAR SOLE para el Departamento Gráfico de Bic Graphic Europe
+// Fecha de última actualización: 13 de febrero de 2018
+//*********************************************************************************
+"use strict";
+
+
+/**
+ * Clase con información sobre la excepción creada
+ * @param {string} spanishMsg El mensaje con la excepción en español
+ * @param {string} englishMsg El mensaje con la excepción en inglés
+ */
+function CustomException(spanishMsg, englishMsg) {
+    this.spanishMsg = spanishMsg;
+    this.englishMsg = englishMsg;
+    this.type = "customException";
+}
